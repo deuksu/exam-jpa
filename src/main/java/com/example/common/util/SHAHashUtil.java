@@ -7,9 +7,9 @@ import org.apache.commons.codec.binary.Hex;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class SHA256HashUtil {
+public class SHAHashUtil {
 	
-	private static final Logger logger = LoggerFactory.getLogger(SHA256HashUtil.class);
+	private static final Logger logger = LoggerFactory.getLogger(SHAHashUtil.class);
 	
 	public static String encode(String input) throws Exception {
 		
