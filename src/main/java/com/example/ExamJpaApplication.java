@@ -15,7 +15,7 @@ import com.example.jpa.repository.AccountRepository;
 import com.example.jpa.repository.MemberRepository;
 
 //@EntityScan(basePackages="com.example.domain")
-//@EnableJpaRepositories(basePackages="com.example.repository")
+//@EnableJpaRepositories(basePackages="com.example.repository") 자동으로 springbootapplication에서 사용되고 있음
 @SpringBootApplication
 public class ExamJpaApplication {
 
